@@ -7,11 +7,12 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
+            "name": "Launch via NPM",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script", "debug"
             ],
-            "program": "${workspaceFolder}/Section 3/Task 1/app.js"
+            "cwd": "${workspaceFolder}/Section 4/45/"
         }
     ]
 }
