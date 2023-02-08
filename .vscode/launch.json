@@ -12,7 +12,7 @@
             "runtimeArgs": [
                 "run-script", "debug"
             ],
-            "cwd": "${workspaceFolder}/Section 5/Task 2/",
+            "cwd": "${workspaceFolder}/Section 5/64/",
             "restart": true
         }
     ]
