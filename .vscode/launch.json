@@ -7,13 +7,24 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch via NPM",
+            "name": "Section 7 - 103",
             "runtimeExecutable": "npm",
             "runtimeArgs": [
                 "run-script", "debug"
             ],
-            "cwd": "${workspaceFolder}/Section 7/98/",
+            "cwd": "${workspaceFolder}/Section 7/103/",
             "restart": true
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Section 8 - 107",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script", "debug"
+            ],
+            "cwd": "${workspaceFolder}/Section 8/107/",
+            "restart": true
+        },
     ]
 }
