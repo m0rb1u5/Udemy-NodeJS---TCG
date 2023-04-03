@@ -37,5 +37,16 @@
             "cwd": "${workspaceFolder}/Section 8/108/",
             "restart": true
         },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Section 8 - 109",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script", "debug"
+            ],
+            "cwd": "${workspaceFolder}/Section 8/109/",
+            "restart": true
+        },
     ]
 }
