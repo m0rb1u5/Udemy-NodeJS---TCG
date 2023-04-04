@@ -169,5 +169,16 @@
             "cwd": "${workspaceFolder}/Section 9/123/",
             "restart": true
         },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Section 9 - 124",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script", "debug"
+            ],
+            "cwd": "${workspaceFolder}/Section 9/124/",
+            "restart": true
+        },
     ]
 }
